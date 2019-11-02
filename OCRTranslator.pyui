@@ -1,0 +1,78 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 46}, {320, 434}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "textview",
+          "editable" : false,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "C964AC79-5A3F-4D72-B277-24C7F2F55130",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {250, 49}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "W",
+          "action" : "displayConvertedData",
+          "image_name" : "iob:camera_32",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "A8D7FD88-2AB2-415D-8E88-1412D8D69CF2",
+          "class" : "Button",
+          "background_color" : "RGBA(0.867665,0.867665,0.867665,1.000000)",
+          "font_size" : 15,
+          "name" : "buttonCapture"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{245, 0}, {75, 49}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 15,
+          "action" : "renewText",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "",
+          "uuid" : "F74C5B6A-43D7-4C63-BA6F-BE7E08A9555C",
+          "class" : "Button",
+          "background_color" : "RGBA(0.725343,0.725343,0.725343,1.000000)",
+          "name" : "buttonClear",
+          "image_name" : "iob:ios7_refresh_empty_32"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "OCRTranslator",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
